@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<Events>
+  <Event RecordID="4" TimeCreated="2022-05-10 23:21:34">
+    <Source>LogEventExampleJob</Source>
+    <EventID>211</EventID>
+    <Severity>INFO</Severity>
+    <Category>Talend-Task-Information</Category>
+    <CorrelationID>LogEventExampleJob-20220510232134</CorrelationID>
+    <Message>Talend Job {LogEventExampleJob} completed successfully (Simulation Mode: On).</Message>
+    <TalendDataCode>-255</TalendDataCode>
+    <TalendProject>PRTG_TLNDLOG</TalendProject>
+    <TalendProjectJobGroup>jobgroupname</TalendProjectJobGroup>
+    <TalendProjectJobScope>com.example.talend.jobgroupname</TalendProjectJobScope>
+  </Event>
+  <Event RecordID="3" TimeCreated="2022-05-10 23:21:34">
+    <Source>LogEventExampleJob</Source>
+    <EventID>210</EventID>
+    <Severity>INFO</Severity>
+    <Category>Talend-Task-Information</Category>
+    <CorrelationID>LogEventExampleJob-20220510232134</CorrelationID>
+    <Message>Talend Job {LogEventExampleJob} was launched by Task Scheduler (Simulation Mode: On).</Message>
+    <TalendDataCode>-255</TalendDataCode>
+    <TalendProject>PRTG_TLNDLOG</TalendProject>
+    <TalendProjectJobGroup>jobgroupname</TalendProjectJobGroup>
+    <TalendProjectJobScope>com.example.talend.jobgroupname</TalendProjectJobScope>
+  </Event>
+  <Event RecordID="2" TimeCreated="2022-05-10 23:16:48">
+    <Source>LogEventExampleJob</Source>
+    <EventID>211</EventID>
+    <Severity>INFO</Severity>
+    <Category>Talend-Task-Information</Category>
+    <CorrelationID>LogEventExampleJob-20220510231647</CorrelationID>
+    <Message>Talend Job {LogEventExampleJob} completed successfully (Simulation Mode: On).</Message>
+    <TalendDataCode>-255</TalendDataCode>
+    <TalendProject>PRTG_TLNDLOG</TalendProject>
+    <TalendProjectJobGroup>jobgroupname</TalendProjectJobGroup>
+    <TalendProjectJobScope>com.example.talend.jobgroupname</TalendProjectJobScope>
+  </Event>
+  <Event RecordID="1" TimeCreated="2022-05-10 23:16:48">
+    <Source>LogEventExampleJob</Source>
+    <EventID>210</EventID>
+    <Severity>INFO</Severity>
+    <Category>Talend-Task-Information</Category>
+    <CorrelationID>LogEventExampleJob-20220510231647</CorrelationID>
+    <Message>Talend Job {LogEventExampleJob} was launched by Task Scheduler (Simulation Mode: On).</Message>
+    <TalendDataCode>-255</TalendDataCode>
+    <TalendProject>PRTG_TLNDLOG</TalendProject>
+    <TalendProjectJobGroup>jobgroupname</TalendProjectJobGroup>
+    <TalendProjectJobScope>com.example.talend.jobgroupname</TalendProjectJobScope>
+  </Event>
+</Events>
