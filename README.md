@@ -4,7 +4,7 @@ This project contains source code of PRTG custom advanced sensors.
 
 ## Advanced EXE/Script Sensors
 
-The sensors contained in this repository are written either _Python_ or _PowerShell_ scripts. Following is a list of implemented _Advanced EXE/Script Sensors_.
+The sensors contained in this repository are implemented either as _Python_ script or as _PowerShell_ script. Following is a list of implemented _Advanced EXE/Script Sensors_.
 
 ### Sensor `Get-TalendScheduledTask`
 
