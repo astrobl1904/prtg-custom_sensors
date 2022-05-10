@@ -4,5 +4,4 @@
     <migrationTask xmi:id="_U00HydCEEeyFL6ma00Z_3w" id="org.talend.repository.model.migration.CheckProductVersionMigrationTask" breaks="7.1.0" version="7.1.1"/>
   </TalendProperties:Project>
   <TalendProperties:User xmi:id="_U0hLMdCEEeyFL6ma00Z_3w" login="astroblx@asgraphics.at" password="D41D8CD98F00B204E9800998ECF8427E"/>
-  <TalendProperties:User xmi:id="_P6Jz4NCNEeypeIRfxdK59A" login="astroblx@asgraphics.at" password="D41D8CD98F00B204E9800998ECF8427E"/>
 </xmi:XMI>
