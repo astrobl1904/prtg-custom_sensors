@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:TalendMetadata="http://www.talend.org/metadata/connection/2010">
+  <TalendMetadata:GenericSchemaConnection xmi:id="_ftBLAA82Eeen65-Fqm-aNg" name="repository.metadataGenericSchema" dataPackage="_ftBLAQ82Eeen65-Fqm-aNg"/>
+  <TalendMetadata:GenericPackage xmi:id="_ftBLAQ82Eeen65-Fqm-aNg" name="repository.metadataGenericSchema" dataManager="_ftBLAA82Eeen65-Fqm-aNg">
+    <ownedElement xsi:type="TalendMetadata:MetadataTable" xmi:id="_ftBLAg82Eeen65-Fqm-aNg" id="_UG9G0A82Eeen65-Fqm-aNg" label="metadata">
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_xc6ewA83Eeen65-Fqm-aNg" name="EventRecordID" label="EventRecordID" length="-1" talendType="id_Integer" key="true" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Lw_2kA84Eeen65-Fqm-aNg" name="EventTimeCreated" label="EventTimeCreated" length="-1" talendType="id_Date" nullable="false" pattern="&quot;yyyy-MM-dd HH:mm:ss&quot;"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftBLAw82Eeen65-Fqm-aNg" name="EventSource" label="EventSource" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftBLBA82Eeen65-Fqm-aNg" name="EventID" label="EventID" length="-1" talendType="id_Integer" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_ftBLBQ82Eeen65-Fqm-aNg" name="EventLevel" label="EventLevel" length="-1" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_GEN58A84Eeen65-Fqm-aNg" name="EventCategory" label="EventCategory" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_7FfbMA86Eeen65-Fqm-aNg" name="EventCorrelationID" label="EventCorrelationID" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hXiPQA86Eeen65-Fqm-aNg" name="EventMessage" label="EventMessage" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_hS61AA86Eeen65-Fqm-aNg" name="TalendDataCode" label="TalendDataCode" length="-1" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_qqvbcBFoEeeOy41wYhAKkg" name="TalendDataObject" label="TalendDataObject" talendType="id_String"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_uDf2cA84Eeen65-Fqm-aNg" name="TalendProject" label="TalendProject" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_Xs7noA85Eeen65-Fqm-aNg" name="TalendProjectJobGroup" label="TalendProjectJobGroup" talendType="id_String" nullable="false"/>
+      <feature xsi:type="TalendMetadata:MetadataColumn" xmi:id="_FYLBYA86Eeen65-Fqm-aNg" name="TalendProjectJobScope" label="TalendProjectJobScope" talendType="id_String" nullable="false"/>
+    </ownedElement>
+  </TalendMetadata:GenericPackage>
+</xmi:XMI>

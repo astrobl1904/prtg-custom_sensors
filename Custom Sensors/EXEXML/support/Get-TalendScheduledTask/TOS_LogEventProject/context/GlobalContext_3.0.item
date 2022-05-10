@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<xmi:XMI xmi:version="2.0" xmlns:xmi="http://www.omg.org/XMI" xmlns:talendfile="platform:/resource/org.talend.model/model/TalendFile.xsd">
+  <talendfile:ContextType xmi:id="_CtgVkAHXEei9X4iHYPtG3A" confirmationNeeded="false" name="Default">
+    <contextParameter xmi:id="_CtgVkQHXEei9X4iHYPtG3A" comment="Contains the global preferences of the job - if empty generated as &lt;TalendJobGroup>_jobsettings.xml" name="TalendJobPreferences" prompt="TalendJobPreferences?" promptNeeded="false" repositoryContextId="built-in" type="id_Object" value=""/>
+    <contextParameter xmi:id="_CtgVkgHXEei9X4iHYPtG3A" comment="Contains the path to the global preferences file and other processing files." name="TalendStatePath" prompt="TalendStatePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/app/talend/syncjobs/PRTG_TLNDLOG/__PROJDATA/"/>
+    <contextParameter xmi:id="_CtgVkwHXEei9X4iHYPtG3A" comment="Job Group Name - used as settings name AND namespace name" name="TalendJobGroup" prompt="TalendJobGroup?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jobgroupname"/>
+    <contextParameter xmi:id="_CtgVlAHXEei9X4iHYPtG3A" comment="Displays detailed information about the operation done by the command" name="Verbose" prompt="Verbose?" promptNeeded="false" repositoryContextId="built-in" type="id_Boolean" value="false"/>
+    <contextParameter xmi:id="_h9kIQNCIEeyCh8uaKJi6nQ" comment="Company Namespace used with all Talend Projects" name="TalendJobCompanyNamespace" prompt="TalendJobCompanyNamespace?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="com.example.talend"/>
+  </talendfile:ContextType>
+  <talendfile:ContextType xmi:id="_CtgVlQHXEei9X4iHYPtG3A" confirmationNeeded="false" name="Test">
+    <contextParameter xmi:id="_CtgVlgHXEei9X4iHYPtG3A" comment="Contains the global preferences of the job - if empty generated as &lt;TalendJobGroup>_jobsettings.xml" name="TalendJobPreferences" prompt="TalendJobPreferences?" promptNeeded="false" repositoryContextId="built-in" type="id_Object" value=""/>
+    <contextParameter xmi:id="_CtgVlwHXEei9X4iHYPtG3A" comment="Contains the path to the global preferences file and other processing files." name="TalendStatePath" prompt="TalendStatePath?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="C:/app/talend/workspaces/8/PRTG_TLNDLOG/__PROJDATA/"/>
+    <contextParameter xmi:id="_CtgVmAHXEei9X4iHYPtG3A" comment="Job Group Name - used as settings name AND namespace name" name="TalendJobGroup" prompt="TalendJobGroup?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="jobgroupname"/>
+    <contextParameter xmi:id="_CtgVmQHXEei9X4iHYPtG3A" comment="Displays detailed information about the operation done by the command" name="Verbose" prompt="Verbose?" promptNeeded="true" repositoryContextId="built-in" type="id_Boolean" value="true"/>
+    <contextParameter xmi:id="_h9kIQdCIEeyCh8uaKJi6nQ" comment="Company Namespace used with all Talend Projects" name="TalendJobCompanyNamespace" prompt="TalendJobCompanyNamespace?" promptNeeded="false" repositoryContextId="built-in" type="id_String" value="com.example.talend"/>
+  </talendfile:ContextType>
+</xmi:XMI>
