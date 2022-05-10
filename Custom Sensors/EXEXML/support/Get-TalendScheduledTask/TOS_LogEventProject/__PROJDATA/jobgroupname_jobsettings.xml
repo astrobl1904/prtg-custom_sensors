@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<config version="1.0">
+	<array>
+        <dict>
+            <!-- LogPath MUST be relative to the TalendStatePath                             -->
+            <!-- and MUST end with a trailing / (slash)                                      -->
+            <key>LogPath</key>
+            <data>Logs/</data>
+        </dict>
+	</array>
+</config>
