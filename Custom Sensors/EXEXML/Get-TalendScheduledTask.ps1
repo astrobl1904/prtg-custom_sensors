@@ -3,24 +3,21 @@
         PRTG Advanced Scheduled Task Sensor for Talend Open Studio ETL Jobs and Log files.
 
     .DESCRIPTION
-        This Advanced Sensor will report Task statistics based on Windows Scheduled Task
-        and XML output of the Talend Job written to defined Log files.
-        New entries are written to the beginning of the file contents and push out older
-        entries. The filesize remains relatively static after it contents reached its final
-        entry count
+        This Advanced Sensor will report Task statistics based on Windows Scheduled Task and
+        error entries it found in a XML log file maintained by the Talend orchestration job.
 
-        This script performs two tests: it checks for the periodic execution of the installed
-        Windows Scheduled Task in concert with the XML log file created with the Talend job.
-        If the job is run then it verifies any existing XML error logs.
+        This script performs two tests: it checks for the periodic execution of the defined
+        Windows Scheduled Task and looks for error entries in the Talend Job maintained log file.
 
         Additionally this Advanced Sensor script allows to monitor whether the Windows task
         is disabled. In this case an error will be reported back to the probe.
 
         If the task finished successfully the script verifies if any Java exception log files
-        exist in the log directory specified with parameter LogFile. If there are no log files
-        present the most recent execution of the Talend job succeeded. If there are exception log
-        files present the content of the file (based on the value of the CorrelationID) will be
-        read, examined, and a summary will be shown in the sensor's <text> element.
+        exist in the log directory (specified in the Talend Orchestration settings). If there
+        are no log files present the most recent execution of the Talend job succeeded.
+        If there are exception log files present the content of the file (based on the value
+        of the CorrelationID) will be read, examined, and a summary will be shown in the sensor's
+        <text> element.
 
     .PARAMETER ComputerName
         Specifies the computer on which the command runs. The default is the local computer.
@@ -129,7 +126,7 @@ param (
     $Version
 )
 
-$_VERSION = '0.1.0'
+$_VERSION = '1.0.0'
 $_SCRIPTNAME = 'Get-TalendScheduledTask.ps1'
 $_AUTHOR = 'Andreas Strobl <astroblx@asgraphics.at>'
 
