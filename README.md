@@ -1,14 +1,10 @@
-# prtg-custom_sensors
+# prtg-exescriptadvanced-TalendScheduledTask
 
-This project contains source code of PRTG custom advanced sensors.
+This project contains source code of the PRTG EXE/Script Advanced sensor `Get-TalendScheduledTask`.
 
-## Advanced EXE/Script Sensors
-
-The sensors contained in this repository are implemented either as _Python_ script or as _PowerShell_ script. Following is a list of implemented _Advanced EXE/Script Sensors_.
-
-### Sensor `Get-TalendScheduledTask`
+## Sensor Summary `Get-TalendScheduledTask`
 
     Script Language: Powershell
     Version: v0.1.0
     Author: Andreas Strobl <astroblx@asgraphics.at>
-Docs Link: [Custom Sensors/EXEXML/docs/Get-TalendScheduledTask_ps1.md](/Custom%20Sensors/EXEXML/docs/GEt-TalendScheduledTask_ps1.md)
+Docs Link: [Custom Sensors/EXEXML/docs/Get-TalendScheduledTask_ps1.md](https://github.com/astrobl1904/prtg-exescriptadvanced-TalendScheduledTask/blob/main/Custom%20Sensors/EXEXML/docs/Get-TalendScheduledTask_ps1.md)
